@@ -217,6 +217,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/austin-asoluka-415326155/",
+    url: "https://www.linkedin.com/in/tochukwu-asoluka-415326155/",
   },
 ];
