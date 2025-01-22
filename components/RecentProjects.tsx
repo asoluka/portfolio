@@ -9,8 +9,7 @@ const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        A small selection of <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
@@ -18,10 +17,7 @@ const RecentProjects = () => {
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
-            >
+            <PinContainer title="asolukaprojects" href="https://github.com/asoluka">
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -29,16 +25,10 @@ const RecentProjects = () => {
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
+                <img src={item.img} alt="cover" className="z-10 absolute bottom-0" />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
-              </h1>
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{item.title}</h1>
 
               <p
                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
@@ -66,9 +56,7 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple"></p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
